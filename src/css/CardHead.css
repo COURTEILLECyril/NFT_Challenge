@@ -1,0 +1,21 @@
+.test{
+    background-image: url("../images/image-equilibrium.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.test:hover .invisible{
+    opacity: 0.5;
+}
+
+.invisible{
+    background-color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    opacity: 0;
+}
+
+
+

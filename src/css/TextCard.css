@@ -1,0 +1,58 @@
+h3{
+    color: hsl(0, 0%, 100%) ;
+    font-family: "Outfit-semibold";
+    font-weight: 600;
+}
+
+h3:hover{
+    color: hsl(178, 100%, 50%) ;
+}
+
+p{
+    color: hsl(215, 51%, 70%) ;
+    Font-size : 18px;
+    margin: 0;
+    font-family: "Outfit-light";
+    font-weight: 300;
+}
+
+.prixAndTime{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.prixAndTime img{
+    width: 15%;
+    height: 80%;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-self: center;
+}
+.prix{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+.prix p{
+    color: hsl(178, 100%, 50%);
+    align-self: center;
+    font-family: "Outfit-semibold";
+    font-weight: 600;
+}
+.prix img{
+    width: 10%;
+}
+.time{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.time p{
+    align-self: center;
+    font-family: "Outfit-light";
+    font-weight: 300;
+}

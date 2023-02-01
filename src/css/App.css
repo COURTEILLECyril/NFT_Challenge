@@ -1,0 +1,24 @@
+body{
+    background-color: hsl(217, 54%, 11%) ;
+}
+
+
+@font-face {
+    font-family: 'Outfit-light';
+    src: url("../font/Outfit-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url("../font/Outfit-Regular.ttf");
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'Outfit-semibold';
+    src: url("../font/Outfit-SemiBold.ttf");
+    font-weight: 600;
+}
+
